@@ -2,12 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: hsl(180, 100%, 94%);
 }
 .header{
   display: grid;
   grid-template-columns: 300px 1fr 350px;
   height: 45px;
+  background-color: #07111f;
 }
 .navigation{
   display: flex;
@@ -20,26 +20,198 @@
   gap: 20px;
   font-size: 14px;
   font-weight: 600;
+  color: #fff;
 }
 .started{
   display: grid;
- grid-template-columns: 1fr 2fr;
+ grid-template-columns: 50% 50%;
   color: #fff;
   height: 100vh;
   border: none;
   cursor: pointer;
   ;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
 .logo{
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 20px;
   font-weight: 700;
+  color: white;
+    font-family: "Caveat", cursive;
 }
 .get-started{
 display: flex;
 justify-content: center;
 align-items: center;
 }
+.modelmachine{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modelmachinecenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modelmachineimag{
+  width: 100%;
+}
+
+.startedtext{
+  display: flex;
+  flex-direction: column;
+
+}
+.holdertext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainInfo{
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:100px 0  0 50px;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.started{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:80px 8%;
+    background:#07111f;
+    color:#fff;
+}
+
+.startedtext{
+    width:48%;
+}
+
+.hero-title{
+    font-size:72px;
+    font-weight:800;
+    line-height:1.05;
+font-family: 'Chakra Petch', sans-serif;
+}
+
+.hero-title span{
+    color:#1E66FF;
+}
+.logoimg{
+  height: 45px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.hero-description{
+    margin-top:30px;
+    max-width:520px;
+    font-size:18px;
+    color:#c4c9d4;
+    line-height:1.7;
+}
+
+.hero-buttons{
+    margin-top:40px;
+    display:flex;
+    gap:20px;
+}
+
+.btn-primary{
+    background:linear-gradient(90deg, #1E66FF 0%, black 100%, black 100%);
+    color:#fff;
+    border:none;
+    height: 50px;
+    width: 65%;
+    padding:16px 34px;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+}
+.btn-thrid{
+    background:#07111f;
+    color:#07111f;
+    border:none;
+    margin-top:10px;
+    padding:10px 25px;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    border: 1px solid #3b4c73;
+}
+
+.btn-thrid:hover{
+ background:linear-gradient(15deg, #022571 , black);
+ color:#fff;
+}
+.btn-secondary{
+    background:transparent;
+    color:#fff;
+    border:1px solid #3b4c73;
+    padding:16px 34px;
+    border-radius:8px;
+    height: 50px;
+    cursor:pointer;
+    display:flex;
+    align-items:center;   
+  justify-content:center;
+
+}
+
+.hero-companies{
+    margin-top:60px;
+}
+
+.hero-companies p{
+    color:#7d8697;
+    margin-bottom:18px;
+}
+
+.companies{
+    display:flex;
+    gap:30px;
+    color:#7d8697;
+    flex-wrap:wrap;
+}
+
+.startedimage{
+    width:48%;
+    display:flex;
+    justify-content:center;
+}
+
+.startedimage img{
+    width:100%;
+    max-width:700px;
+}
+
