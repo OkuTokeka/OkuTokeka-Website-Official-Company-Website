@@ -1,4 +1,4 @@
-import model from "../assets/machine.png";
+import model from "../assets/OkuModel.gif";
 
 export default function GetStarted() {
   return (

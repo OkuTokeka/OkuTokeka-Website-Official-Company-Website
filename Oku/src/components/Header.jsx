@@ -3,7 +3,7 @@ export default function Header() {
 
     return (
         <header className="header">
-            <div className="logo"><img src={logo} alt="OkuTokeka Logo" className='logoimg' />OkuTokeka</div>
+            <div className="logo"><img src={logo} alt="OkuTokeka Logo" className='logoimg' /></div>
             <div className="navigation">
                 <ol className="nav-list">
           
